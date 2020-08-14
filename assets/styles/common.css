@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 7px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+button img {
+    margin-right: 5px;
+}
+
+button.blue-btn {
+    color: white;
+    background-color: #1877f2;
+}
+
+button.lightblue-btn {
+    color: blue;
+    background-color: aliceblue;
+}
+
+button.gray-btn {
+    color: black;
+}
+
+hr.hor {
+    margin-top: 10px;
+    height: 1px;
+}
+
+.components-group {
+    border-bottom: 10px solid lightgray;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+button:active {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+a.bold-text {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+a.blue-text {
+    color: blue;
+    font-size: 18px;
+}
+
+a.thin-text {
+    font-weight: lighter;
+    color: #919191;
+    font-size: 13px;
+}
+
+a img {
+    margin-right: 5px;
+}
+
+.top-border {
+    border-top: 1px solid lightgray;
+}
+
+.right {
+    margin-right: auto;
+}
+
+.full-width-btn {
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+/*Top blue header style*/
+header {
+    top: 0;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 44px;
+    grid-template-columns: 95% 5%;
+    background-color: #3b5998;
+    margin-bottom: 20px;
+}
+
+.blue-header-banner-content {
+    margin: auto;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+/*End of top blue header style*/
+
+
+/* Cover Page*/
+
+.coverpage-section {
+    height: 240px;
+}
+
+/* Cover Image */
+.cover-image-section {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.cover-image-section img {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.camera-section {
+    background-color: lightgrey;
+    width: 30px;
+    text-align: center;
+    border-radius: 50px;
+    transform: translateY(-120%);
+    margin-left: 10px;
+}
+
+/*End Of Cover Image */
+
+/* Profile Image */
+.profile-image-section {
+    transform: translateY(-50%);
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+
+.profile-image-section > img {
+    box-shadow: 2px 11px 6px 1px rgba(0, 0, 0, .125);
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* End Of Profile Image */
+/*End Of Cover Page*/
+
+/*Profile name bio*/
+.profile-name-bio {
+    text-align: center;
+    padding: 10px;
+}
+
+/*End Of Profile name bio*/
+
+/* Edit profile buttons*/
+.edit-profile-buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 35px;
+}
+
+.add-to-story {
+    width: 100%;
+    margin-right: 10px;
+}
+
+/* End of Edit profile buttons*/
+
+/*About Section*/
+.about-section div {
+    margin-top: 10px;
+}
+
+/*End of About Section*/
+
+/*Friends*/
+.friends-section {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    margin: 4px;
+    width: 30%;
+    display: inline-block;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+/*End Of Friends*/
+
+.more-section {
+    display: flex;
+}
+
+.more-section button {
+    flex: 1;
+    margin: 10px;
+    border-radius: 70px;
+}
